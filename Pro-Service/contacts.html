@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Послуги і пропозиції</title>
+	<script type="text/javascript" src="contcts.js"></script>
+	<link rel="stylesheet" href="contacts.css">
+</head>
+<body oncontextmenu=" showCustomMenu(true, event.clientX, event.clientY); return false;"  onclick="showCustomMenu(false, event.clientX, event.clientY);;">
+
+<header>
+	<br>
+	<a href="basics.html">Головна</a>
+	<a href="projects.html"> Проекти</a>
+	<a href="google.com">Контакти</a>
+</header>
+<div id = 'zagal' >
+<div id = 'mytext'><p>Адреса: м.Львів, вул. Автомобільна, 25</p>
+<p>Номер телефону: 032 387 358</p>
+<p>Час роботи: Пн-Пт 09:00 - 22:00</p>
+</div>
+<div id="video1">
+<audio src="gaz24.webm" type="audio/webm"></audio>
+<video src="gaz24.webm" controls></video>
+</div>
+</div>
+
+<footer> <p>
+	© Hurniak Yaroslav, 2019
+</p></footer>
+
+
+</body>
+<div id="custommenu" onmouseover = " style.border = '10px double red';" onmouseout=" style.border = '4px double red';">
+<div style="background-Color: silver; color: navy; font-Size: 14pt;" onclick="doAction('close');">Закрити вікно</div>
+<div style="background-Color: silver; color: navy; font-Size: 14pt;" onclick="doAction('fontIncrease');">Збільшити шрифт</div>
+<div style="background-Color: silver; color: navy; font-Size: 14pt;" onclick="doAction('fontDecrease');">Зменшити шрифт</div>
+<div style="background-Color: silver; color: navy; font-Size: 14pt;" onclick="doAction('changeBkg');">Змінити фон</div>
+<div style="background-Color: silver; color: navy; font-Size: 14pt;" onclick="doAction('goToGoogle');">Google</div>
+
+
+</html>
